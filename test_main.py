@@ -1,5 +1,7 @@
 import main
 
 
-def test_all():
-    assert True
+def test_square():
+    square = main.Square
+
+    assert square.is_inside(2, 1) == False
